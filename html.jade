@@ -1,8 +1,8 @@
 h2 NewsLetter
 - var n=data.length;
 - for (var i=0; i<n; i++) {
-h3 #{data[i].author.name}
+h3 #{data[i].tt_text}
+h5 p #{data[i].datetime} #{data[i].author.name} 
 img(src=data[i].original_pic.url, width=150)
-p #{data[i].datetime}
 p #{data[i].description}
 -}
